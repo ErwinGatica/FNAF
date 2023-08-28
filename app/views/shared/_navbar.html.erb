@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <%= link_to root_path do%>
+      <i class="fa-solid fa-house home-icon"></i>
+    <% end%>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <%= link_to 'Scott Cawthon', scott_path, class:"btn btn-dark"%>
+
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+
+          <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Freddy Fazbear's Pizza
+          </button>
+
+          <ul class="dropdown-menu dropdown-menu-dark">
+
+            <li>
+          <%= link_to 'Oficina de seguridad', office_path, class:"dropdown-item"%>
+
+            </li>
+
+            <li>
+          <%= link_to 'Animatrónicos', animatronics_path, class:"dropdown-item"%>
+
+            </li>
+
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>

@@ -1,1 +1,55 @@
 // Specific CSS for your home-page
+body {
+  background: rgb(55,5,5);
+  background: linear-gradient(90deg, rgba(55,5,5,1) 0%, rgba(1,1,17,1) 35%, rgba(2,36,43,1) 100%);
+  color:white
+
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.home-icon {
+  color: white;
+  padding: 1rem;
+}
+
+.principal-button {
+  border-radius: 10px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+img {
+  width: 100%;
+}
